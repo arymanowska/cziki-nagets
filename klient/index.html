@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>powtórzenie.SPRAWDZIAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="getDATA()">
+
+    <div id="top"></div>
+
+    <div id="aside"></div>
+
+    <div id="cointainer">
+        <div id="content">
+            <div class="produkt">
+                <h1>nazwa</h1>
+                <h1>cena</h1>
+            </div>
+        </div>
+        <div id="form">
+            <div id="form1">
+                <input type="radio" name="bob" onclick="filtrMIN()">min</checkbox>
+                <input type="radio" name="bob" onclick="filtrMAX()">max</checkbox>
+            </div>
+            <div id="form2">
+                <input id="name"></input>
+                <input id="how_much"></input>
+                <button id="send" onclick="itemSend()">Wyślij</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="bottom"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
